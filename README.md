@@ -2,7 +2,7 @@ ByteSubstringsChallenge.js submission
 
 (Contact me via GitHub in case of any questions)
 
-All rights reserved, including copyright
+All rights reserved, including copyright. (Note that this project was forked from the suffix-tree library. More information about that project is in the other README file.)
 
 Usage:
 

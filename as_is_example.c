@@ -20,4 +20,14 @@ int main()
 	
 	/*Delete the tree and all its nodes.*/
 	ST_DeleteTree(tree);
+
+  return 0;
+}
+int recurse(NODE* node){
+  if(node->sons == NULL){
+    return 0;
+  } else {
+    return 1;
+  }
+
 }
