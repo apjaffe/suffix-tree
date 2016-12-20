@@ -13,6 +13,9 @@ suffix_tree.o:	suffix_tree.c suffix_tree.h
 main.c:	suffix_tree.h 
 	${COMPILER} ${DFLAGS} ${CFLAGS} main.c 
 
+challenge: challenge.c
+	gcc suffix_tree.c challenge.c -o challenge
+
 clean: 
 	rm *.o 
 	rm ${EXECNAME}
